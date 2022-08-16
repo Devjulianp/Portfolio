@@ -5,75 +5,122 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Julian Palencia</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;700&family=Josefin+Sans:wght@100;300;500&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./Assets/logo_dj.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 
 </head>
 
 <body>
     <!--Hero section start-->
-    <main class="grid">
-        <header class="hero container">
-            <nav>
-                <h2 class="nav-logo">Portfo<span>lio</span></h2>
-                <ul class="nav-links">
-                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
-                </ul>
+    <header class="header container">
+        <div class="nav-logo">
+            <img class="nav-img" src="./Assets/logo_dj.png" alt="Devjulian">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+            </ul>
+            <div class="nav-btn">
                 <a href="#" class="nav-cta">Subscribe</a>
-                <svg class= "nav-menu" xmlns="http://www.w3.org/2000/svg" width="55" height="55" style="fill: #a2d9e4; transform: msFilter;"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
-            </nav>
-            <div class="hero-picture">
-                <img src="./Assets/Img-hero.jpg" class="picture">
-                <div class="hero-info">
-                    <h4 class="hero-title">Hola mi nombre es</h4>
-                    <h1 class="hero-title hero-title--name">Julian<span>Palencia</span></h1>
-                    <h3 class="hero-title hero-title--prof">Soy Ingeniero Industrial - Web Developer.</h3>
-                    <div class="newslatter">
-                        <form>
-                            <input type="email" id="mail" placeholder="ingrese su correo">
-                            <input type="submit" name="submite" value="Let´s Start">
-                        </form>
-                    </div>
-                </div>
+                <i class='bx bx-menu bx-lg' id="nav-menu"></i>
             </div>
-        </header>
+        </nav>
+    </header>
+    <section class="hero container">
+        <div class="hero-info">
+            <h4 class="hero-title">Hola, mi nombre es</h4>
+            <h1 class="hero-title--name">Julian Palencia.</h1>
+            <h3 class="hero-title--prof" id="typejs"></h3>
+            <div class="newslatter">
+                <form>
+                    <input type="email" id="mail" placeholder="ingrese su correo">
+                    <input type="submit" name="submite" value="Let´s Start">
+                </form>
+            </div>
+        </div>
+    </section>
 
-        <!--About section start-->
+    <!--About section start-->
+    <main>
         <section class="about container">
             <div class="about-figure">
-                <img src="./Assets/Picsart_22-06-07_14-27-17-010.png" alt="Julian Palencia" class="about-img">
+                <img src="Assets/mi-foto.jpg" alt="Julian Palencia" class="about-img">
             </div>
             <div class="about-text">
-                <h2 class="about-title">About Me</h2>
-                <h5 class="about-subtitle">Ingeniero Industrial<span> & Web Developer</span></h5>
-                <p class="about-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                    adipisci repellat veniam excepturi, tempora est qui iure consequatur ipsam magnam culpa et atque
-                    numquam reiciendis fugiat id odit! Et, atque!
-                    Ad praesentium temporibus error eum, laboriosam expedita neque esse voluptatibus, saepe
-                    perferendis inventore impedit architecto quasi ex, enim ullam nesciunt debitis quia corporis?
-                    Sint accusantium blanditiis beatae commodi facere laborum?
-                    Dolorem quasi cupiditate earum tempora temporibus, ratione odio recusandae consequatur
-                    perspiciatis eaque. Eveniet vel dolorum asperiores repudiandae magnam facilis recusandae commodi
-                    quos culpa obcaecati eos a voluptate eaque, fugit quaerat.
-                    Neque, ad nihil, illum reiciendis iusto, nemo quisquam eos temporibus consequuntur hic ex? Odit,
-                    soluta autem. Ipsa, esse obcaecati fugiat accusamus incidunt labore, sapiente aut impedit nihil,
-                    dolores voluptatibus voluptas!
-                    Quo eveniet omnis possimus dolorem, asperiores maiores? Ex eius reprehenderit aperiam, animi
-                    nihil voluptate, libero excepturi possimus laborum magni suscipit corporis dolor sunt? Nobis
-                    corrupti unde incidunt labore quidem sequi?</p>
+                <h2 class="about-title">Acerca de mi</h2>
+                <h5 class="about-subtitle"><span>Web Developer</span> & Ingeniero Industrial</h5>
+                <p class="about-paragraph">Hola, mi nombre es Julian Palencia, soy ingeniero industrial de profesion
+                    hace mas de 10 años, desde la segundaria he sentido una conexion con el mundo IT en especial en el
+                    area de la programacion, sin embargo por circunstancia de la vida termine estudiando ingenieria
+                    industrial la cual amo y toda mi vida me he dedicado a eso, sin embargo quiero darme una oportunidad
+                    nueva, mas especificamente en el area frontend del desarrollo web, comence a formarme desde este año
+                    2022 y hasta la fecha no he parado de aprender, tecnologias como HTML-CSS, Javascript, SASS, NodeJs,
+                    y herramientas imprencidibles como Git, GitHub, NPM, VSC etc.
+                    Muy pronto entrare a ReactJs y Angular para finalizar mi ruta de aprendizaje para el Frontend
+                    Developer!</p>
                 <button class="about-btn" type="button">Let´s Talk!</button>
             </div>
 
         </section>
         <section class="skill container">
-            <div class="skill-content">
-                #3
+            <div class="conteneur">
+                <h1 class="skill-title">Tecnologias</h1>
+                <h5 class="skill-subtitle">Aquí hay algunas tecnologías con las que he estado trabajando recientemente:</h5>
+                <div class="circle">
+                    <div class="point_general point1">
+                        <span><img class="texte" src="assets/html-5.svg" alt="html"></span>
+                    </div>
+                    <div class="point_general point2">
+                        <span><img class="texte" src="assets/css-3.svg" alt="css"></span>
+                    </div>
+                    <div class="point_general point3">
+                        <span><img class="texte" src="assets/javascript.svg" alt="javascript"></span>
+                    </div>
+                    <div class="point_general point4">
+                        <span><img class="texte" src="assets/nodejs-icon.svg" alt="nodejs"></span>
+                    </div>
+                    <div class="point_general point5">
+                        <span><img class="texte" src="assets/sass.svg" alt="sass"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-tools swiper mySwiper">
+                <h1 class="skill-tools-title">Herramientas y utilidades</h1>
+                <h5 class="skill-tools-sub">Aquí hay algunas herramientas y recursos:</h5>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="Assets/git.svg" alt="Git" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Assets/jquery.svg" alt="jquery"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Assets/github-icon.svg" alt="github"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Assets/json.svg" alt="json"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Assets/npm.svg" alt="npm"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Assets/bootstrap.svg" alt="bootstrap"/>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
         </section>
         <section class="contact container">
@@ -81,12 +128,15 @@
                 #4
             </div>
         </section>
-        <footer class="footer container">
-            <div class="footer-section">
-                #5
-            </div>
-        </footer>
     </main>
+    <footer class="footer container">
+        <div class="footer-section">
+            #5
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
