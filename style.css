@@ -30,7 +30,6 @@ canvas {
   position: absolute;
   width: 100%;
   height: 100%;
-    
 }
 /* ---- stats.js ---- */
 .count-particles {
@@ -70,7 +69,6 @@ canvas {
   padding: 1rem;
   margin: 0 auto;
   overflow: hidden;
-  
 }
 
 /* Hero section start */
@@ -158,7 +156,6 @@ span {
 .hero {
   height: 80vh;
   background: var(--color3);
- 
 }
 
 .hero-info {
@@ -255,14 +252,13 @@ span {
   margin: 0 auto;
   padding: 1rem;
   text-align: center;
-  
 }
 
 .about-title,
 .skill-title,
 .skill-tools-title {
   color: #fff;
-  font-size: 6vh;
+  font-size: 5vh;
   padding: 10px 0;
   margin: 1.5rem 0;
   display: inline-block;
@@ -274,7 +270,7 @@ span {
   letter-spacing: 2px;
   font-family: fira code;
   font-weight: 400;
-  font-size: 3vh;
+  font-size: 2.5vh;
   margin: 15px 0;
   text-transform: capitalize;
 }
@@ -333,8 +329,8 @@ span {
 .circle {
   background: transparent;
   margin: 2rem auto;
-  width: 300px;
-  height: 300px;
+  width: 290px;
+  height: 290px;
   border: 8px solid #12826c;
   border-radius: 50%;
   position: relative;
@@ -413,26 +409,26 @@ span {
 
 .point1 {
   top: 70px;
-  left: 0px;
+  left: -2px;
 }
 
 .point2 {
-  top: -16px;
+  top: -14px;
   left: 138px;
 }
 
 .point3 {
-  top: 80px;
-  right: -5px;
+  top: 100px;
+  right: -11px;
 }
 
 .point4 {
-  top: 260px;
-  right: 65px;
+  top: 250px;
+  right: 60px;
 }
 
 .point5 {
-  bottom: 30px;
+  bottom: 35px;
   right: 235px;
 }
 
@@ -502,7 +498,6 @@ span {
   width: 250px;
   height: 30vh;
   perspective: 20000px;
-  
 }
 
 .caroussel-image {
