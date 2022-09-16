@@ -193,14 +193,14 @@ span {
 
 .newslatter form {
   width: 95%;
-  max-width: 100%;
+  max-width: 21rem;
   position: relative;
   margin-top: 2rem;
 }
 
 .newslatter form input:first-child {
   display: inline-block;
-  width: 100%;
+  width: 21rem;
   padding: 10px 65px 10px 7px;
   border: 2px solid var(--color1);
   outline: none;
@@ -219,7 +219,7 @@ span {
   color: #fff;
   box-shadow: 0px 0px 5px #000, 0px 0px 5px #858585;
   top: 4px;
-  right: 3px;
+  right: 2px;
   cursor: pointer;
 }
 
