@@ -4,7 +4,7 @@
 
 
 var options = {
-  strings: ['Soy Ingeniero Industrial', 'Soy Web Developer'],
+  strings: ['Ingeniero Industrial', 'Web Developer'],
   typeSpeed: 70,
   backSpeed: 0,
 };
